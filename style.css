@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #ff8c42;
+}
+
+header {
+    background: #ff8c42;
+    padding: 16px;
+    text-align: center;
+    color: rgb(251, 251, 251);
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #fffcfc;
+    margin: 0 12px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a.active, nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_860,ar_3:2/v1/img/recipes/28/18/77/ZyG0h2VYRjei7iPFSWNI_food.com-14.jpg?w=1800') center/cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero h2 {
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    text-shadow: 2px 2px 8px black;
+}
+.welcome
+{
+    color: white;
+    background-color: #ff8c42;
+}
+
+/* Sections */
+.section-title {
+    text-align: center;
+    color: #ff8c42;
+    margin: 25px 0;
+}
+
+/* Menu Grid */
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 18px;
+    padding: 10px;
+}
+.card {
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 10px; 
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+}
+.card img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Form */
+.form-box {
+    width: 320px;
+    background: #fff;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+}
+.form-box input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+}
+.form-box button {
+    width: 100%;
+    padding: 10px;
+    background: #ff8c42;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #222;
+    color: #fff;
+    padding: 12px;
+    margin-top: 30px;
+}
+
+/*contact file*/
+body {
+    font-family: Arial, sans-serif;
+    background: #eee;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #ff004f;
+    color: #fff;
+    padding: 25px;
+}
+
+.contact-box {
+    background: #fff;
+    width: 350px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.contact-box h2 {
+    color: #d62b70;
+    margin-bottom: 15px;
+}
+
+.info p {
+    font-size: 15px;
+    margin: 6px 0;
+}
+
+.social a {
+    display: inline-block;
+    background: #ff004f;
+    color: #fff;
+    padding: 8px 18px;
+    margin: 6px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.social a:hover {
+    background: #cc0043;
+}
+
+.home-btn {
+    display: inline-block;
+    margin-top: 18px;
+    padding: 8px 14px;
+    background: #333;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.home-btn:hover {
+    background: #111;
+}
+
+
+
